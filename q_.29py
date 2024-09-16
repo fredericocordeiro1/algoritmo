@@ -1,0 +1,22 @@
+import random
+
+print("====================================")
+print("Prova de Matemática","\nQuestão 1")
+print("====================================")
+import random
+
+for i in range(5):  # Itera 5 vezes
+    a = random.randint(0, 100)
+    b = random.randint(0, 100)
+    print(f"Exemplo {i+1}: a = {a}, b = {b}")
+
+print("====================================")
+print("Qual é a soma de a + b? responda as seguintes perguntas:")
+
+resposta1 = int(input("Insira aqui a soma de a + b no Primeiro exemplo:"))
+resposta2 = int(input("Insira aqui a soma de a + b no Segundo exemplo:"))
+resposta3 = int(input("Insira aqui a soma de a + b no Terceiro exemplo:"))
+resposta4 = int(input("Insira aqui a soma de a + b no Quarto exemplo:"))
+resposta5 = int(input("Insira aqui a soma de a + b no Quinto exemplo:"))
+
+    
